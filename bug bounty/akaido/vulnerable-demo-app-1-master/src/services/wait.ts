@@ -12,7 +12,7 @@ export const waitFor200 = (url: string | URL) =>
       const interval = setInterval(async () => {
         try {
           console.log('waiting for', parsedUrl.toString());
-          const { status } = await fetch(parsedUrl.toString());
+          const { status } = await fetch('http://127.0.0.1');
           if (status === 200) {
             clearInterval(interval);
             resolve(status);
