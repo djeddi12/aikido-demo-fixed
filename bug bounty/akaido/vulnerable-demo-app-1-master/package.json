@@ -59,7 +59,7 @@
     "sass-loader": "7.0.1",
     "vue-jest": "3.0.4"
   },
-  "resolutions": {
+  "overrides": {
     "axzios": "axios",
     "tough-cookie": "^4.1.3",
     "json-schema": "^0.4.0",
