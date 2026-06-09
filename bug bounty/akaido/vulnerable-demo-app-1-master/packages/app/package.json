@@ -63,8 +63,10 @@
     "lodash.pick": "^4.4.0",
     "uuid": "^9.0.0",
     "@babel/traverse": "^7.24.1",
-    "webpack-dev-server": "^5.0.4",
     "send": "^0.18.0",
     "serve-static": "^1.15.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^5.2.4"
   }
 }

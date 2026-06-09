@@ -57,7 +57,8 @@
     "poi": "10.1.6",
     "request-debug": "0.2.0",
     "sass-loader": "7.0.1",
-    "vue-jest": "3.0.4"
+    "vue-jest": "3.0.4",
+    "webpack-dev-server": "^5.2.4"
   },
   "overrides": {
     "axzios": "axios",
@@ -69,7 +70,6 @@
     "lodash.pick": "^4.4.0",
     "uuid": "^9.0.0",
     "@babel/traverse": "^7.24.1",
-    "webpack-dev-server": "^5.0.4",
     "send": "^0.18.0",
     "vue-template-compiler": "^2.7.16",
     "serve-static": "^1.15.0"
